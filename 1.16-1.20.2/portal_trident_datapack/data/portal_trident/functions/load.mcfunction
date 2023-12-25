@@ -1,0 +1,1 @@
+tellraw @a {"text": "portal trident v1 for 1.17-1.20.2 is running"}

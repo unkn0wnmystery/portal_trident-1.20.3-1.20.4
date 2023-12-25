@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "portal_trident:entangled_ender_perarl_recipe"
+      }
+    }
+  },
+  "rewards": {
+    "function": "portal_trident:entangled_ender_perarl_recipe"
+  }
+}
+

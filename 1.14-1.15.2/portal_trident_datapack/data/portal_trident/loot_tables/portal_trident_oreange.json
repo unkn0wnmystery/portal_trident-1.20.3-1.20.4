@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1,display:{Name:'[{\"text\":\"Orange\",\"italic\":false,\"color\":\"gold\"}]'},orange:1}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
