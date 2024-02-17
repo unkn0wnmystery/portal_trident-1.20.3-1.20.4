@@ -1,0 +1,4 @@
+execute if score delayby persistentumpt matches 20 run tellraw @s ["",{"text":"<portal_trident> Delay already set to 20 ticks decreasing to 0 "},{"text":"will cause problems!","color":"dark_red"}]
+execute unless score delayby persistentumpt matches 20 store success score decreaseddelay dataumpt run scoreboard players operation delayby persistentumpt -= Twenty dataumpt
+execute unless score decreaseddelay dataumpt matches 0 run tellraw @s ["",{"text":"<portal_trident> Delay decreased to "},{"score":{"name":"delayby","objective":"persistent"}},{"text":" ticks"}]
+scoreboard players set decreaseddelay dataumpt 0
