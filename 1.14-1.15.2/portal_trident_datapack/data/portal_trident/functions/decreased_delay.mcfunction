@@ -1,2 +1,0 @@
-scoreboard players operation delay_by persistent -= Twenty data
-tellraw @s ["",{"text":"<portal_trident> Delay decreased to "},{"score":{"name":"delay_by","objective":"persistent"}},{"text":" ticks"}]
