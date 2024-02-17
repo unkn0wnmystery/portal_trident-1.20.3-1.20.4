@@ -1,0 +1,1 @@
+execute if score loadmessage persistent matches 1 run tellraw @a {"text": "portal trident v1 for 1.20.3-1.20.4 is running"}
